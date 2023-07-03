@@ -1,0 +1,70 @@
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.card{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 350px;
+  height: 600px;
+  margin: 10px;
+  background-color: #fafafa;
+  box-shadow: 0 7px 13px -8px rgb(0, 0, 0, 0.25), 0px 0px 2px 0px rgb(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.card-image{
+  min-height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-name{
+  font-size: 30px;
+  font-weight: bolder;
+  text-align:start;
+  text-decoration: none;
+  color: black;
+}
+.card-description, .card-price, .card-category, .card-name ,.card-Ingredients{
+  margin-left: 12px;
+}
+
+.card-description{
+  max-width: 100%;
+  height: 130px;
+  overflow: auto;
+}
+
+.card-Ingredients-container{
+  height: 100px;
+  width: 350px;
+  overflow: auto;
+  margin: 13px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+span.card-text{
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+span.card-text-dollar{
+  color: green;
+  font-weight: bolder;
+}
+
+.search-term-input{
+  margin-left: 5%;
+  width: 90%;
+  padding: 0px;
+}

@@ -1,0 +1,39 @@
+.nemo-button {
+  appearance: none;
+  border: 1px solid #7d2e14;
+  background: #be441d;
+  color: white;
+  padding: 10px 15px;
+  border-bottom-width: 2px;
+  font-size: 13px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.nemo-button:hover{
+  border: 1px solid #8b2f11;
+  background: #a03c1b;
+}
+.nemo-button:active{
+  transform: scale(0.95);
+}
+
+.nemo-button:disabled {
+  background: #a66b57;
+  cursor: not-allowed;
+}
+div.app-body{
+  background-image: url("../public/background245.png");
+  background-repeat: repeat ;
+  background-color:#fff5e9;
+  height: 100vh;
+  overflow: auto;
+}
+
+div > label > span{
+  font-weight: bolder;
+  background-color: white;
+  padding: 5px;
+  box-shadow: inset 5em 2.1em rgba(250, 228, 104, 0.685);
+}
